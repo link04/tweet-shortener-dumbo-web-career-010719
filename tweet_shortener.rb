@@ -1,5 +1,5 @@
 def dictionary
-  shorter_words = {
+  dictionary = {
     "hello" => 'hi',
     "to" => '2', 
     "too" => '2',
