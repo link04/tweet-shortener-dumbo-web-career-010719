@@ -1,3 +1,3 @@
-def word_substituter(hash_of_words, tweet_string)
+def word_substituter(tweet_string)
   
 end
