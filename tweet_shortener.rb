@@ -1,4 +1,4 @@
-def dictionar
+def dictionary
   shorter_words = {
     "hello" => 'hi',
     "to" => '2', 
