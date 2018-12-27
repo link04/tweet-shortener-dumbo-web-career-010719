@@ -16,6 +16,13 @@ end
 def word_substituter(tweet_string)
   tweet_array = tweet_string.join(" ")
   
+  tweet_array.collect do |word|
+    dictionary.keys.each do |shorter|
+      if word == shorter
+        word
+      end
+    end
+  end
   
 end
 
