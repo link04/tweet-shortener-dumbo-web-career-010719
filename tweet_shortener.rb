@@ -22,7 +22,7 @@ def word_substituter(tweet_string)
         dictionary.values_at(shorter)
       end
     end
-  end.join(" ")
+  end
   
 end
 
