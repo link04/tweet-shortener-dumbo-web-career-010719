@@ -1,1 +1,3 @@
-word_substituter
+def word_substituter
+  
+end
