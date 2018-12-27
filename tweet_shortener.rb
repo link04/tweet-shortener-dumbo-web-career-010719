@@ -17,10 +17,8 @@ def word_substituter(tweet_string)
   tweet_array = tweet_string.split(" ")
   
   tweet_array.collect do |word|
-    dictionary.keys.collect do |shorter|
-      if word == shorter
-        dictionary.values_at(shorter)
-      end
+    if dictionary.keys.include? word
+       word = dictionary.values_at(shorter)
     end
   end
   
