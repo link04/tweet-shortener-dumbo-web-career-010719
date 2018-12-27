@@ -32,7 +32,11 @@ def bulk_tweet_shortener(tweet_array)
 
 end
 
-
+def selective_tweet_shortener(tweet)
+  if 
+  else
+  end
+end
 
 
 
