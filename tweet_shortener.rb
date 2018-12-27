@@ -14,5 +14,15 @@ def dictionary
 end
 
 def word_substituter(tweet_string)
-  tweet_string
+  tweet_array = tweet_string.join(" ")
+  
+  
 end
+
+
+
+
+
+
+
+
