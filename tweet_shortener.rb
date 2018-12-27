@@ -19,7 +19,7 @@ def word_substituter(tweet_string)
   tweet_array.collect do |word|
     dictionary.keys.each do |shorter|
       if word == shorter
-        
+        dictionary.values_at(shorter)
       end
     end
   end
