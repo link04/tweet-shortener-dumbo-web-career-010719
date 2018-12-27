@@ -38,7 +38,6 @@ def selective_tweet_shortener(tweet)
   else
     tweet
   end
-  
 end
 
 
