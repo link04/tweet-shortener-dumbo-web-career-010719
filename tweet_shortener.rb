@@ -27,7 +27,7 @@ end
 
 def bulk_tweet_shortener(tweet_array)
   tweet_string = tweet_array.join(" ")
-  puts tweet_array
+  puts word_substituter(tweet_string)
 end
 
 
